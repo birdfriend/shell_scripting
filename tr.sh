@@ -22,4 +22,4 @@ echo "hello  world 234" | tr -d -c '0-9 \n'
 
 #-s to squeeze repeating characters from the input
 echo "hello     world 12 34 56" | tr -s ' '
-echo -e "hello \n\n world" | tr -s '\n'
+echo -e "hello \n world" | tr -s '\n'
